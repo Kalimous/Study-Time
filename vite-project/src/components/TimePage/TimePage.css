@@ -1,0 +1,25 @@
+.TimePage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.TimePage header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 10%;
+}
+
+.TimeRecord h1 {
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}

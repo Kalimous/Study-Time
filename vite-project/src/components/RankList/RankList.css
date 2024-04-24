@@ -1,0 +1,51 @@
+.list {
+    border: 2px solid black;
+    width: 95%;
+    height: 20%;
+    display: flex;
+    color: white;
+    margin-left: 10px;
+}
+
+.listContainer {
+    width: 40%;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+.list .userIcon {
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active h2{
+    font-weight: 400;
+    color: #8DECB4
+}
+
+.userInfo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.userInfo .userName{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+
